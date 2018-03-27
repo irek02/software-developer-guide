@@ -1,0 +1,27 @@
+toc:
+  - title: Techonology (be a technology expert)
+    subfolderitems:
+      - page: Know your tools
+        url: /thing1.html
+      - page: Use best practices and principles
+        url: /thing2.html
+      - page: Learn about software architecture
+        url: /thing3.html
+      - page: Master your stack
+        url: /thing3.html
+  - title: Business (solve the right problem)
+    subfolderitems:
+      - page: Learn about the business domain
+        url: /piece1.tml
+      - page: Set goals
+        url: /piece2.html
+      - page: Make an impact
+        url: /piece3.html
+  - title: Process (deliver result on budget and time)
+    subfolderitems:
+      - page: Establish continuous delivery
+        url: /widget1.html
+      - page: Use and optimize an agile framework
+        url: /widget2.html
+      - page: Eliminate constraints
+        url: /widget3.html

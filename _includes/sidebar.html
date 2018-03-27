@@ -2,14 +2,13 @@
   Software Developer Guide
 </h1>
 
-<ul>
-  <li>
-    Technology
-  </li>
-  <li>
-    Direction
-  </li>
-  <li>
-    Process
-  </li>
-</ul>
+{% for item in site.data.leftmenu.toc %}
+  {{ item.title }}
+  <ul>
+    {% for entry in item.subfolderitems %}
+    <li>
+      <a href="{{ entry.url }}">{{ entry.page }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
