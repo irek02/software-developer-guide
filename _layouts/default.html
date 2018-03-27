@@ -8,37 +8,25 @@
  <!-- Navbar goes here -->
 
     <!-- Navbar goes here -->
-    <div class="row">
-
-      <div class="col s12 red lighten-1">
-        <p>Navbar</p>
-      </div>
-
-
-    </div>
 
 
     <!-- Page Layout here -->
     <div class="row">
 
-      <div class="col s3">
-        <p>Sidebar</p>
+      <!-- <div class="col s12 red lighten-1">
+        <p>Navbar</p>
+      </div> -->
+
+
+      <div class="col s3 red darken-3 white-text text-darken-3 full-height">
+        {%- include sidebar.html -%}
       </div>
 
       <div class="col s9">
-        <p>content</p>
+        {{ content }}
       </div>
 
     </div>
-
-
-    <!--   <div class="row">
-    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-    <div class="col s12 m6 l3"><p>s12 m6 l3</p></div>
-  </div>
- -->
 
 
 <!--     {%- include header.html -%}
