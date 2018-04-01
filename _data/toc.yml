@@ -22,7 +22,7 @@
 - title: Process
   subfolderitems:
     - page: Continuous delivery
-      url: /widget1.html
+      url: /process/continuous-delivery.html
     - page: Agile
       url: /widget2.html
     - page: Constraints
