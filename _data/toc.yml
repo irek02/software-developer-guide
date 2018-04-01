@@ -4,14 +4,15 @@
   url: /technology.html
   subfolderitems:
     - page: Tools
-      url: /technology/know-your-tools.html
+      url: /technology/tools.html
     - page: Practices and principles
-      url: /technology/use-best-practices-and-principles.html
+      url: /technology/practices-and-principles.html
     - page: Architecture
       url: /thing3.html
     - page: Stack
       url: /thing3.html
 - title: Business
+  url: /business.html
   subfolderitems:
     - page: Business domain
       url: /piece1.tml
@@ -20,6 +21,7 @@
     - page: Impact
       url: /piece3.html
 - title: Process
+  url: /process.html
   subfolderitems:
     - page: Continuous delivery
       url: /process/continuous-delivery.html

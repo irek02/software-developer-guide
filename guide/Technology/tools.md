@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Know Your Tools
-permalink: technology/know-your-tools.html
+permalink: technology/tools.html
 category: "Technology"
 ---
 

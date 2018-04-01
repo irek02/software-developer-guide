@@ -1,6 +1,6 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @import "jekyll-theme-prologue";
 
 body {
@@ -39,6 +39,13 @@ strong, b {
     background-image: none;
     background-color: #fff;
   }
+
+  h1 {
+		font-size: 2.2em;
+  }
+  h2 {
+		font-size: 1.8em;
+	}
 }
 
 #nav {
@@ -50,6 +57,11 @@ strong, b {
       a {
         color: #fff;
         padding: 0px 10px;
+
+        &.active, &:hover {
+          background: rgba(0, 0, 0, 0.15);
+        }
+
         span {
           font-size: 1em;
           line-height: 2em;
