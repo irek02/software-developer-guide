@@ -8,9 +8,9 @@
     - page: Practices and principles
       url: /technology/practices-and-principles.html
     - page: Architecture
-      url: /thing3.html
+      url: /technology/architecture.html
     - page: Stack
-      url: /thing3.html
+      url: /technology/stack.html
 - title: Business
   url: /business.html
   subfolderitems:
