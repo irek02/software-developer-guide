@@ -1,0 +1,29 @@
+- title: Introduction
+  url: /introduction.html
+- title: Techonology
+  url: /technology.html
+  subfolderitems:
+    - page: Tools
+      url: /technology/know-your-tools.html
+    - page: Practices and principles
+      url: /technology/use-best-practices-and-principles.html
+    - page: Architecture
+      url: /thing3.html
+    - page: Stack
+      url: /thing3.html
+- title: Business
+  subfolderitems:
+    - page: Business domain
+      url: /piece1.tml
+    - page: Goals
+      url: /piece2.html
+    - page: Impact
+      url: /piece3.html
+- title: Process
+  subfolderitems:
+    - page: Continuous delivery
+      url: /widget1.html
+    - page: Agile
+      url: /widget2.html
+    - page: Constraints
+      url: /widget3.html

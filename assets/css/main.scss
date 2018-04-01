@@ -37,6 +37,9 @@ strong, b {
 #nav {
   ul {
     li {
+      ul {
+        padding-left: 30px;
+      }
       a {
         span {
           font-size: 1em;
