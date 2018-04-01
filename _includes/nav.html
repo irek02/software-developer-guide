@@ -16,11 +16,11 @@
         {%- comment -%}<!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
         {%- if _page.url == page.url -%}
           <li><a href="#" id="{{- _slug -}}" class="active">
-            <span class="icon {{ _icon }}">{{- _title -}}</span>
+            <span>{{- _title -}}</span>
           </a></li>
         {%- elsif _page.url -%}
           <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
-            <span class="icon {{ _icon }}">{{- _title -}}</span>
+            <span>{{- _title -}}</span>
           </a></li>
         {%- else -%}
           <li><a href="{{- '/' | absolute_url -}}" id="broken-link"><span class="icon fa-unlink">[broken link]</span></a></li>

@@ -27,6 +27,25 @@ strong, b {
   }
 }
 
+#main {
+  > section, article {
+    background-image: none;
+    background-color: #fff;
+  }
+}
+
+#nav {
+  ul {
+    li {
+      a {
+        span {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}
+
 @include breakpoint(wide) {
 
   #header {
