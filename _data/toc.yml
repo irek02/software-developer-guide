@@ -15,7 +15,7 @@
   url: /business.html
   subfolderitems:
     - page: Business domain
-      url: /piece1.tml
+      url: /business/business-domain.html
     - page: Goals
       url: /piece2.html
     - page: Impact
