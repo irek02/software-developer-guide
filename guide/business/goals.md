@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Business Domain
-permalink: business/business-domain.html
+title: Set goals
+permalink: business/goals.html
 category: "Business"
 ---
 
-Business Domain
+Goals
