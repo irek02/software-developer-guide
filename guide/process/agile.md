@@ -64,12 +64,12 @@ However, there is another advantage in doing 2-4 weeks iterations. It comes in t
 
 The focus of Kanban is to reduce waste which is another big challenge for organizations.
 
-Kanban principles:
+**Kanban principles:**
 
 1. Change management: make incremental improvements to an existing system. In our case, the current system is based on Scrum.
 2. Service delivery: focus on delivering value to the customer.
 
-Kanban practices:
+**Kanban practices:**
 
 1. Visualize your workflow.
 2. Limit work-in-progress.
