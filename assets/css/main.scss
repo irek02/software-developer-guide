@@ -83,38 +83,14 @@ strong, b {
   }
 }
 
-@include breakpoint(wide) {
+@include breakpoint(wide); @include breakpoint(normal); @include breakpoint(narrow) {
 
   #header {
-    width: 305px;
+    width: _size(header);
   }
 
   #main {
-    margin-left: 305px;
-  }
-
-}
-
-@include breakpoint(normal) {
-
-  #header {
-    width: 305px;
-  }
-
-  #main {
-    margin-left: 305px;
-  }
-
-}
-
-@include breakpoint(narrow) {
-
-  #header {
-    width: 305px;
-  }
-
-  #main {
-    margin-left: 305px;
+    margin-left: _size(header);
   }
 
 }
