@@ -1,0 +1,96 @@
+---
+---
+
+@import "jekyll-theme-prologue";
+
+body {
+  color: #000;
+  font-size: 15pt;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #000;
+}
+
+strong, b {
+  font-weight: bold;
+  color: #000;
+}
+
+#header {
+  text-align: left;
+  background-color: #b71c1c;
+  box-shadow: 0px 0px;
+
+  h1 {
+    font-size: 3em;
+  }
+}
+
+#logo {
+  margin: 20px 10px 30px 10px;
+}
+
+#main {
+  > section, article {
+    padding: 1em 0;
+    background-image: none;
+    background-color: #fff;
+  }
+
+  a {
+    color: -webkit-link;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0px;
+  }
+
+  h1 {
+		font-size: 2.2em;
+  }
+  h2 {
+		font-size: 1.8em;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+#nav {
+  ul {
+    li {
+      ul {
+        padding-left: 30px;
+      }
+      a {
+        color: #fff;
+        padding: 0px 10px;
+
+        &.active {
+          background: rgba(0, 0, 0, 0.15);
+        }
+
+        span {
+          font-size: 1em;
+          line-height: 2em;
+        }
+      }
+    }
+  }
+}
+
+@include breakpoint(wide); @include breakpoint(normal); @include breakpoint(narrow) {
+
+  #header {
+    width: _size(header);
+  }
+
+  #main {
+    margin-left: _size(header);
+  }
+
+}

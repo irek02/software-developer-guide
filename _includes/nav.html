@@ -1,0 +1,36 @@
+<nav id="nav">
+  <ul>
+
+    {% for item in site.data.toc %}
+      <li>
+
+        {%- assign active = "" -%}
+        {%- if item.url == page.url -%}
+          {%- assign active = "active" -%}
+        {%- endif -%}
+
+        <a href="{{ site.baseurl }}{{ item.url }}"  class="{{ active }}">
+          <span>{{ item.title }}</span>
+        </a>
+
+        <ul>
+          {% for subentry in item.subfolderitems %}
+
+            {%- assign active = "" -%}
+            {%- if subentry.url == page.url -%}
+              {%- assign active = "active" -%}
+            {%- endif -%}
+
+            <li>
+              <a href="{{ site.baseurl }}{{ subentry.url }}" class="{{ active }}">
+                <span>{{ subentry.page }}</span>
+              </a>
+            </li>
+
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+
+  </ul>
+</nav>
