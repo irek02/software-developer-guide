@@ -7,10 +7,10 @@ permalink: introduction.html
 After working with software professionally for some time, I learned that there are three biggest challenges for developers:
 
 1. Building the system that is robust, maintainable and flexible (quality software).
-2. Building the right system in the first place (affect the right business metrics).
+2. Building the right system in the first place (move the right business metrics).
 3. Building the system on budget and time.
 
-In this book, you will learn about techniques, practices and methodologies that help us face the above challenges. Note that I did not invent these ideas. I just picked the ones that help with the listed challenges.
+In this guide, you will learn about techniques, practices and methodologies that help us face the above challenges. Note that I did not invent these ideas. I just picked the ones that I think are most useful in this context.
 
 --------------------------------------------
 _Why did you write this book?_
@@ -39,6 +39,7 @@ _After reading the intro, readers should not have surprises when the read the bo
 
 Layout:
 
+```text
 Technology (be a technology expert)
 
 1. Know your tools
@@ -47,12 +48,14 @@ Technology (be a technology expert)
 4. Master your stack
 
 Business (solve the right problem)
+
 5. Learn about the business domain
 6. Set goals
 7. Make an impact
 
 Process (deliver result on budget and time)
+
 8. Establish continuous delivery
 9. Use and optimize an agile framework
 10. Eliminate constraints
-
+```

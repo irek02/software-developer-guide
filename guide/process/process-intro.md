@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Process Introduction
+title: Process - how to build software on budget and time
 permalink: process.html
 category: "Process"
 ---

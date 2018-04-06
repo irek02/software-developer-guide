@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Business
+title: Business - how to build the right thing
 permalink: business.html
 category: "Business"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Technology Introduction
+title: Technology - how to build the thing right
 permalink: technology.html
 category: "Technology"
 ---
