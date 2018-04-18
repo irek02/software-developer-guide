@@ -72,3 +72,13 @@ SOLID is a set of principles promoted by Uncle Bob. Learn more at butunclebob.co
 ### 7. Design for change
 
 Lastly, the only constant in software is change. So design your architecture to be flexible.
+
+## Reading list
+
+* <https://www.amazon.com/Design-Programmer-Architect-Pragmatic-Programmers-ebook/dp/B077FHD78B>
+* <https://www.amazon.com/Building-Evolutionary-Architectures-Support-Constant-ebook/dp/B075RR1XVG>
+* <https://www.amazon.com/Incremental-Software-Architecture-Failing-Implementations-ebook/dp/B01AVKWFEC>
+* <https://www.amazon.com/Software-Architecture-Practice-SEI-Engineering-ebook/dp/B009GMUL84>
+* <https://www.amazon.com/Software-Systems-Architecture-Stakeholders-Perspectives-ebook/dp/B0061LAKW0>
+* <https://www.amazon.com/Documenting-Software-Architectures-Beyond-Engineering-ebook/dp/B0046XS3RO>
+* <https://www.amazon.com/Pattern-Oriented-Software-Architecture-System-Patterns-ebook/dp/B0014EME7I>
