@@ -5,6 +5,11 @@ permalink: technology/tools.html
 category: "Technology"
 ---
 
+* TOC
+{:toc}
+
+# Introduction
+
 In my experience, I find that the following three statements define a professional software engineer:
 
 * Know the correct technology to build a software solution (build the thing right).
@@ -13,7 +18,7 @@ In my experience, I find that the following three statements define a profession
 
 In this post, I outline the first and essential part of software engineering: knowing your tools.
 
-## Text editor and IDE
+# Text editor and IDE
 
 Regardless of a particular text editor or IDE, all developers write code in a repeating cycle of two simple steps. These steps consist of adding/editing a bunch of text and then checking if it worked.
 
@@ -23,11 +28,11 @@ Therefore, to become more efficient at writing code you need to reduce the time 
 2. **Fuzzy search** allows you to find any file within the project by typing just a few characters. Very often this is much faster alternative to using a file browser.
 3. Learn **Vim** and add it as a plugin in your favorite text editor or an IDE. Using Vim simply makes editing text faster as it requires fewer keystrokes to accomplish the same result as opposed to using a conventional editor.
 
-## Command line
+# Command line
 
 [Seven essential command line skills for a professional developer](http://irekm.com/7-essential-command-line-skills/).
 
-## Version control system
+# Version control system
 
 Learning version control system is the first step in becoming a professional software engineer working in a team.
 
@@ -39,7 +44,7 @@ Second, **version control allows code branching and merging**. This feature is p
 
 Git is by far the [most popular version control system](https://insights.stackoverflow.com/survey/2017#work-version-control). That makes it a natural choice for your primary version control tool.
 
-## Browser developer tools
+# Browser developer tools
 
 If you are developing for the web, you should learn your browser’s developer tools. The tooling allows you to see what’s happening under the hood of the user interface from the client perspective. The following are the benefits of learning browser developer tools:
 
@@ -50,7 +55,7 @@ If you are developing for the web, you should learn your browser’s developer t
 
 Both Chrome and Firefox come with standard developer tools, so you do not need to install them separately.
 
-## Runtime environment
+# Runtime environment
 
 Every computer program is meant to be executed in some environment. Regardless of the programming language, you should get familiar with the tooling that allows running your software.
 

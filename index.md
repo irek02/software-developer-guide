@@ -7,7 +7,7 @@ In this Software Developer Guide, you will learn how to:
 
 ## Build high-quality solutions that are robust, performant and maintainable
 
-I made many stupid mistakes while learning how to build sound solutions, but you do not have to repeat them. In this book, I will show what you need to know to write high quality code. This means you will be able to implement the best technical solution using essential developer tools, practices and principles, architecture design and the right platform stack.
+I made many mistakes while learning how to build sound solutions, but you do not have to repeat them. In this book, I will show what you need to know to write high quality code. This means you will be able to implement the best technical solution using essential developer tools, practices and principles, architecture design and the right platform stack.
 
 ## Build the right solution for the right problem
 

@@ -19,6 +19,10 @@ strong, b {
   color: #000;
 }
 
+li > ul {
+  margin-bottom: 0;
+}
+
 #header {
   text-align: left;
   background-color: #b71c1c;
